@@ -1,0 +1,205 @@
+@import './tree.scss';
+@import './button.scss';
+@import './basket.scss';
+
+.apple1,
+.apple2,
+.apple3,
+.apple4,
+.apple5,
+.apple6,
+.apple7,
+.apple8,
+.apple9,
+.apple10,
+.apple11,
+.apple12 {
+  position: absolute;
+}
+
+.apple1 {
+  top: 50px;
+  left: 350px;
+}
+.apple2 {
+  top: 80px;
+  left: 295px;
+}
+.apple3 {
+  top: 80px;
+  left: 400px;
+}
+.apple4 {
+  top: 120px;
+  left: 360px;
+}
+.apple5 {
+  top: 150px;
+  left: 500px;
+}
+.apple6 {
+  top: 65px;
+  left: 490px;
+}
+.apple7 {
+  top: 100px;
+  left: 450px;
+}
+.apple8 {
+  top: 180px;
+  left: 420px;
+}
+.apple9 {
+  top: 110px;
+  left: 240px;
+}
+.apple10 {
+  top: 160px;
+  left: 330px;
+}
+.apple11 {
+  top: 160px;
+  left: 180px;
+}
+.apple12 {
+  top: 200px;
+  left: 280px;
+}
+.drop-animation1,
+.drop-animation2,
+.drop-animation3,
+.drop-animation6,
+.drop-animation8 {
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+
+.drop-animation1 {
+  animation-delay: 3.5s, 9s;
+  animation-name: move1, basket1;
+  animation-duration: 3.5s, 1s;
+}
+
+@keyframes move1 {
+  from {
+    top: 50px;
+  }
+  to {
+    top: 475px;
+  }
+}
+
+@keyframes basket1 {
+  from {
+    left: 350px;
+    top: 475px;
+  }
+  to {
+    left: 548px;
+    top: 390px;
+  }
+}
+
+.drop-animation2 {
+  animation-delay: 4s, 9.5s;
+  animation-name: move2, basket2;
+  animation-duration: 4s, 1s;
+}
+
+@keyframes move2 {
+  from {
+    top: 80px;
+  }
+  to {
+    top: 475px;
+  }
+}
+
+@keyframes basket2 {
+  from {
+    left: 295px;
+    top: 475px;
+  }
+  to {
+    left: 575px;
+    top: 390px;
+  }
+}
+
+.drop-animation3 {
+  animation-delay: 4.2s, 9.7s;
+  animation-name: move3, basket3;
+  animation-duration: 4.2s, 1s;
+}
+
+@keyframes move3 {
+  from {
+    top: 80px;
+  }
+  to {
+    top: 475px;
+  }
+}
+
+@keyframes basket3 {
+  from {
+    left: 400px;
+    top: 475px;
+  }
+  to {
+    left: 585px;
+    top: 390px;
+  }
+}
+
+.drop-animation6 {
+  animation-delay: 4.5s, 10s;
+  animation-name: move6, basket6;
+  animation-duration: 4.5s, 1s;
+}
+
+@keyframes move6 {
+  from {
+    top: 65px;
+  }
+  to {
+    top: 475px;
+  }
+}
+
+@keyframes basket6 {
+  from {
+    left: 490px;
+    top: 475px;
+  }
+  to {
+    left: 625px;
+    top: 390px;
+  }
+}
+
+.drop-animation8 {
+  animation-delay: 5.5s, 11s;
+  animation-name: move8, basket8;
+  animation-duration: 5.5s, 1s;
+}
+
+@keyframes move8 {
+  from {
+    top: 180px;
+  }
+  to {
+    top: 475px;
+  }
+}
+
+@keyframes basket8 {
+  from {
+    left: 420px;
+    top: 475px;
+  }
+  to {
+    left: 595px;
+    top: 390px;
+  }
+}
