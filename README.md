@@ -3,7 +3,7 @@
 You can access to DEMO from that link.
 
 <p><a href="http://shaketree.surge.sh/">Here is a Demo Link</a></p>
-
+<img src="shaketree.png" />
 ### `npm start`
 
 Runs the app in the development mode.\
